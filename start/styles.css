@@ -10,14 +10,14 @@ html, body {
 
 /*home page css*/
 .cursive{
-    border-radius: 50%;
+    font-family:brush script mt;
 }
 
 .circle{
     border-radius: 50%;
 }
 .drop-shadow {
-    text-shadow: 1px 2px 3px #000;
+    text-shadow: 3px 2px 3px #000;
 }
 #home-container {
     display: grid;
@@ -43,11 +43,11 @@ html, body {
     padding-top: 25px;
 }
 
-.home-main-nav{
+.home-main-nav >ul {
     list-style-type: none;
 }
 
-.home-main-nav{
+.home-main-nav >ul >li {
     display: inline;
     font-size: 1.75em;
 }
@@ -56,7 +56,7 @@ html, body {
     color:white;
     text-decoration: none;
     padding: 15px 1em;
-    font-size: 1.35em;
+    text-shadow: 3px 2px 3px #000;
 }    
 
 .home-main-nav >ul >li:first-child {
