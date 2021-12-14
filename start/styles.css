@@ -7,12 +7,16 @@ html, body {
     height: 100vh;
     width: 100vh;
 }
-
+h1 {
+    font-size: 2em;
+}
+.full-width {
+    width: 100%;
+}
 /*home page css*/
 .cursive{
     font-family:brush script mt;
 }
-
 .circle{
     border-radius: 50%;
 }
@@ -20,9 +24,9 @@ html, body {
     text-shadow: 3px 2px 3px #000;
 }
 #home-container {
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 100%;
 }
 
 .r1 {
@@ -43,7 +47,7 @@ html, body {
     padding-top: 25px;
 }
 
-.home-main-nav >ul {
+.home-main-nav > ul {
     list-style-type: none;
 }
 
