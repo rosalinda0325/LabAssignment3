@@ -15,13 +15,13 @@ h1 {
 }
 /*home page css*/
 .cursive{
-    font-family:brush script mt;
+    font-family: 'Cookie', cursive;
 }
 .circle{
     border-radius: 50%;
 }
 .drop-shadow {
-    text-shadow: 3px 2px 3px #000;
+    text-shadow: 1px 2px 3px #000;
 }
 #home-container {
     height: 100%;
@@ -57,14 +57,14 @@ h1 {
 }
 
 .home-main-nav >ul >li >a {
-    color:white;
+    color: #fff;
     text-decoration: none;
-    padding: 15px 1em;
+    padding: 15px .5em;
     text-shadow: 3px 2px 3px #000;
 }    
 
 .home-main-nav >ul >li:first-child {
-    font-family:brush script mt;
+    font-family: 'Cookie', cursive;
 }
 
 .home-main-nav >ul >li:first-child a:hover {
@@ -78,16 +78,16 @@ h1 {
 }
 
 .gallery-description {
-    text-align: center;
-    color: #fff;
     padding-top: 15%;
     padding-bottom: 40px;
+    text-align: center;
+    color: #FFF;
     font-size: 1.4em;
 }
 
 .r2 {
     display: grid;
-    padding: 2em 0;
+    padding: 2em 0ex;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
     justify-items: center;
